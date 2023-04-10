@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { statusFilters } from "redux/constants";
 import { getStatusfilter } from "redux/selectors";
 import { useDispatch } from "react-redux";
-import { setStatusFilter } from "redux/actions";
+import { setStatusFilter } from "redux/filtersSlice";
 
 export const StatusFilter = () => {
   
